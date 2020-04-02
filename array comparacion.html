@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ARRAY COMPARACION</title>
+	<script type="text/javascript">
+var valores = [true, 5, false, "hola", "adios", 2];
+
+
+if (valores[3]<valores[4]) {
+	alert("hola es mayor")}
+else{ 
+	alert("adios es mayor")
+}
+
+// Combinar valores booleanos y obtener un resultado TRUE(||) y FALSE(&&)
+var valor1 = valores[0];
+var valor2 = valores[2];
+
+
+var resultado = valor1 || valor2;
+alert(resultado);
+
+resultado = valor1 && valor2;
+alert(resultado);
+
+// Operaciones matemáticas
+var num1 = valores[1];
+var num2 = valores[5];
+
+var suma = num1 + num2;
+var resta = num1 - num2;
+var multiplicacion = num1 * num2;
+var division = num1 / num2;
+var modulo = num1 % num2;
+
+
+</script>
+</head>
+<body>
+	<script >
+    alert("la suma es: " + suma);
+    alert(" la resta es: " + resta);
+    alert("la multiplicacion es: " + multiplicacion);
+	alert(" la division es: " +division);	
+	alert("el modulo es: " +modulo);	
+	</script>
+
+</body>
+</html>
